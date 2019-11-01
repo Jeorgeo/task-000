@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Mediateka.Classes
 {
-    public class Audio : Mediafile
+    public class Audio : StreamFile
     {
-        public TimeSpan Duratioin { get; set; }
+        
     }
 }

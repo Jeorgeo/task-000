@@ -10,6 +10,11 @@ namespace Mediateka
 
         public DateTime Date { get; set; }
 
+        public void Rename()
+        {
+
+        }
+
         public void GetExtension()
         {
 

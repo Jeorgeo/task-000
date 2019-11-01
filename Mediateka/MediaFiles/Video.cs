@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Mediateka.Classes
 {
-    class Video
+    class Video : StreamFile
     {
-        public TimeSpan Duratioin { get; set; }
+ 
     }
 }

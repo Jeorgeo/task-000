@@ -22,11 +22,11 @@ namespace Mediateka.Classes
 
         public string Name { get; private set; }
 
-        public void PlayFile() { }
+        public void PlayFile(string Name) { }
 
-        public void PauseFile() { }
+        public void PauseFile(string Name) { }
 
-        public void StopFile() { }
+        public void StopFile(string Name) { }
 
   
     }

@@ -8,17 +8,17 @@ namespace Mediateka.Classes
     {
         public List<MediaFile> mediaItems = new List<MediaFile>();
 
-        public void AddFile()
+        public void AddFile(string Name, int[] mediaItems)
         {
 
         }
 
-        public void RemoveFile()
+        public void RemoveFile(string Name, int[] mediaItems)
         {
 
         }
 
-        public void SearchFile()
+        public void SearchFile(string Name, int[] mediaItems)
         {
 
         }
