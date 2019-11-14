@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mediateka
+namespace Mediateka.MediaFiles
 {
-    public class MediaFile
+    class MediaFile
     {
-        public string Name { get; set; }
+        public string Name { get; private set; }
 
-        public DateTime Date { get; set; }
+        public DateTime Date { get; private set; }
 
-        public void Rename()
+        protected void Rename()
         {
 
         }
 
-        public void GetExtension()
+        protected void GetExtension()
         {
 
         }

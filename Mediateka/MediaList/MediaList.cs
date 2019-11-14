@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mediateka.Classes
+namespace Mediateka.MediaList
 {
-    internal class MediaList
+    class MediaList
     {
         public List<MediaFile> mediaItems = new List<MediaFile>();
 
-        public void AddFile(string Name, int[] mediaItems)
+        protected void AddFile(string Name, int[] mediaItems)
         {
 
         }
 
-        public void RemoveFile(string Name, int[] mediaItems)
+        protected void RemoveFile(string Name, int[] mediaItems)
         {
 
         }
 
-        public void SearchFile(string Name, int[] mediaItems)
+        protected void SearchFile(string Name, int[] mediaItems)
         {
 
         }

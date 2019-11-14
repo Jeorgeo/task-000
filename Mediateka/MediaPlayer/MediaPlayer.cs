@@ -2,31 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mediateka.Classes
+namespace Mediateka.MediaPlayer
 {
     class MediaPlayer
-    {
-        enum streamFile
-        {
-            mp3,
-            mp4,
-            avi
-        };
-
-        enum staticFile
-        {
-            bmp,
-            jpg,
-            svg
-        }
+    {       
 
         public string Name { get; private set; }
 
-        public void PlayFile(string Name) { }
+        private void PlayFile( MediaFile ) {
+        
+        }
 
-        public void PauseFile(string Name) { }
+        private void PauseFile() { }
 
-        public void StopFile(string Name) { }
+        private void StopFile() { }
 
   
     }

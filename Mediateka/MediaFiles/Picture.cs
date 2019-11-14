@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mediateka.Classes
+namespace Mediateka.MediaFiles
 {
-    class Picture
+    class Picture : MediaFile
     {
         public string Resolution { get; set; }
     }

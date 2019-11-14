@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mediateka.Classes
+namespace Mediateka.MediaFiles
 {
-    public class Audio : StreamFile
+    class Audio : StreamFile
     {
-        
+
+        public string AuthorAudio { get; private set; }
+
     }
 }
